@@ -16,8 +16,8 @@ function preload() {
 
 function setup() {
   createCanvas(400, 400);
-  // button = createButton('toggle');
-  // button.mousePressed(toggleSong);
+  button = createButton('toggle');
+  button.mousePressed(toggleSong);
   song.play();
   amp = new p5.Amplitude(); 
 }
